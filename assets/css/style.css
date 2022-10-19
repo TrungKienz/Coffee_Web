@@ -1,0 +1,189 @@
+/* RESET CSS */
+* {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+}
+
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(255,255,255,.3);
+}
+/* BEGIN HEADER */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 15px 92px;
+    background-color: black;
+    z-index: 1;
+    border-bottom: var(--border);
+}
+
+#header .logo img{
+    height: 63px;
+}
+
+/* END header */
+
+/* BEGIN nav */
+
+#nav .nav-bar a {
+    color: white;
+    margin: 0px 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#nav .nav-bar a:hover {
+    color: var(--main-color);
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--main-color);
+}
+
+#header .icons .search-icon {
+    font-size: 25px;
+}
+
+#header .icons .shopping-cart-icon {
+    font-size: 30px;
+}
+
+#header .icons a {
+    color: white;
+    margin-left: 32px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+#header .icons a:hover {
+    color: var(--main-color);
+}
+
+/* END nav */
+
+/* BEGIN Home */
+
+#container #Home {
+    background-image: url(/assets/images/home-img.jpeg);
+    padding-top: 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-bottom: var(--border);
+}
+
+#Home .content {
+    color: white;
+    max-width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 200px; 
+
+}
+
+#Home .content h1 {
+    font-size: 50px;
+}
+
+#Home .content p{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 6px 0 24px 0;
+}
+
+#Home .btn-information {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+#Home .btn-information:hover {
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+/* END Home */
+
+/* BEGIN About */
+
+#container #About {
+    background-color: var(--bg);
+    border-bottom: var(--border);
+    padding: 0 100px 100px 100px;
+}
+
+#About .heading {
+    text-align: center;
+    color: white;
+    padding: 20px 0 40px 0;
+    font-size: 40px;
+}
+
+#About .heading span {
+    color: var(--main-color);
+}
+
+#About .row {
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+}
+
+#About .row .image {
+    width: 1430px;
+    border-bottom: var(--border);
+}
+
+#About .row img {
+    width: 100%;
+}
+
+#About .content { 
+    color: white;
+    line-height: 1.8;
+    padding-left: 15px;
+    height: 100%;
+}
+
+#About .content h3{ 
+    font-size: 27px;
+    padding: 10px 0 10px 0;
+}
+
+#About .content p {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+#About .content .btn-learnmore{
+    padding: 10px 25px;
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#About .content .btn-learnmore:hover {
+    letter-spacing: 3px;
+    cursor: pointer;
+}
