@@ -187,3 +187,73 @@
     letter-spacing: 3px;
     cursor: pointer;
 }
+
+/* END About */
+
+/* BEGIN Menu */
+#Menu {
+    background-color: var(--bg);
+    padding: 0 100px 100px 100px;
+}
+
+#Menu .heading {
+    text-align: center;
+    color: white;
+    padding: 20px 0 40px 0;
+    font-size: 40px;
+}
+
+#Menu .heading span {
+    color: var(--main-color);
+}
+
+#Menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 1.5rem;
+}
+
+#Menu .box-container .box {
+    text-align: center;
+    padding: 60px;
+    border: var(--border);
+    color: white;
+}
+
+#Menu .box-container .box:hover {
+    background-color: white;
+    color: var(--bg);
+    cursor: pointer;
+}
+
+#Menu .box img {
+    height: 120px;
+}
+
+#Menu .box h3 {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+#Menu .box .price {
+    font-size: 24px;
+    padding: 10px 0 30px 0;
+}
+
+#Menu .box span {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+#Menu .box .btn-buy {
+    padding: 10px 33px;
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#Menu .box .btn-buy:hover {
+    letter-spacing: 3px;
+    cursor: pointer;
+}
